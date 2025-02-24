@@ -68,6 +68,12 @@ a = 8
 b = 5
 c = 2
 
-print(a * b, a / b, a // b, a % b) # 40 1.6 1 3
-print(b ** 3) # 125
-print(5 + 3 * c ** 2 / 4 - 2) # 6.0
+print(a * b, a / b, a // b, a % b)  # 40 1.6 1 3
+print(b ** 3)  # 125
+print(5 + 3 * c ** 2 / 4 - 2)  # 6.0
+
+a = True
+b = False
+c = 10 > 5
+print(a, b, c, a + b + c) # True False True 2
+print(a and b, a or b, not a) # False True False
